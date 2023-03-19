@@ -1,6 +1,6 @@
 import './index.scss'
 import { Link } from 'react-router-dom'
-import LogoTitle from '../../assets/images/logo-s.png'
+import LogoTitle from '../../assets/images/logo-p.png'
 const Home = () => {
   return (
     <div className="container home-page">
@@ -9,7 +9,7 @@ const Home = () => {
           Hi, <br />
           I'm
           <img src={LogoTitle} alt="developer" />
-          rashant
+          rashant Joshi
           <br />
           web developer
         </h1>
