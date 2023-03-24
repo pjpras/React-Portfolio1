@@ -6,28 +6,17 @@ import { useEffect, useState } from 'react'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const nameArray = ['r', 'a', 's', 'h', 'a', 'n', 't']
-  const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '.',
-  ]
+  const strName = 'rashant Joshi'
+  const nameArray = strName.split('')
+  const strJob = 'web developer'
+  const jobArray = strJob.split('')
 
   useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 4000)
+    return () => {
+      setTimeout(() => {
+        setLetterClass('text-animate-hover')
+      }, 4000)
+    }
   }, [])
 
   return (
