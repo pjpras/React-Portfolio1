@@ -1,6 +1,6 @@
 import './index.scss'
 import { Link } from 'react-router-dom'
-import LogoTitle from '../../assets/images/logo-p.png'
+import LogoTitle from '../../assets/images/logo-p1.png'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 
@@ -39,7 +39,7 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={22}
+              idx={28}
             />
           </h1>
           <h2>Frontend Developer / JavaScript Expert</h2>

@@ -1,6 +1,6 @@
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
-import LogoP from '../../assets/images/logo-p.png'
+import LogoP from '../../assets/images/logo-p1.png'
 import LogoSubtitle from '../../assets/images/logo_pub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
