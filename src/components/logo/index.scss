@@ -1,0 +1,43 @@
+.logo-animation-container {
+  transform: translate(160%, 8%);
+  height: 450px;
+  width: 450px;
+}
+
+path:first-child {
+  stroke-dasharray: 456.67913818359375;
+  stroke-dashoffset: 456.67913818359375;
+  animation: line-animation 6s ease forwards 1.5s, fill1 1s ease forwards 6.5s;
+}
+
+path:last-child {
+  stroke-dasharray: 452.3154602050781;
+  stroke-dashoffset: 452.3154602050781;
+  animation: line-animation 6s ease forwards 1.5s, fill2 1s ease forwards 6.5s;
+}
+
+@keyframes line-animation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill1 {
+  from {
+    fill: transparent;
+  }
+
+  to {
+    fill: #ffd700;
+  }
+}
+
+@keyframes fill2 {
+  from {
+    fill: transparent;
+  }
+
+  to {
+    fill: #064568;
+  }
+}
