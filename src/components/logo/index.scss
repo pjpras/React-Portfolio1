@@ -4,13 +4,13 @@
   width: 450px;
 }
 
-path:first-child {
+#logo1 {
   stroke-dasharray: 456.67913818359375;
   stroke-dashoffset: 456.67913818359375;
   animation: line-animation 6s ease forwards 1.5s, fill1 1s ease forwards 6.5s;
 }
 
-path:last-child {
+#logo2 {
   stroke-dasharray: 452.3154602050781;
   stroke-dashoffset: 452.3154602050781;
   animation: line-animation 6s ease forwards 1.5s, fill2 1s ease forwards 6.5s;
