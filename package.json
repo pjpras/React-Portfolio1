@@ -1,8 +1,9 @@
 {
+  "homepage": "http://PrashantJoshiG.github.io/React-Portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://PrashantJoshiG.github.io/React-Portfolio",
+  
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
